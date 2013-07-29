@@ -69,7 +69,7 @@ public partial class SignUp : System.Web.UI.Page
           
             
                 
-                /*   
+                   
                 var fromAddress = new MailAddress("sheikhwasfa@gmail.com", "Wasfa Anjum");
                 var toAddress = new MailAddress(EmailAddressTextBox.Text);
                 const string fromPassword = "w@$f@958";
@@ -98,23 +98,7 @@ public partial class SignUp : System.Web.UI.Page
                 }
 
 
-               /*
-
-        MailMessage mm = new MailMessage();
-        mm.To.Add(new MailAddress(EmailAddressTextBox.Text, "Request for Verification"));
-        mm.From = new MailAddress("sheikhwasfa@gmail.com");
-        mm.Body = @"<a href=http://localhost:51779/WebSite2/Activate.aspx?token={yourActivationGuid}> Click here to activate your account </a>";
-        mm.IsBodyHtml = true;
-        mm.Subject = "Verification";
-        SmtpClient smcl = new SmtpClient();
-        smcl.Host = "smtp.gmail.com";
-        smcl.Port = 587;
-        smcl.Credentials = new NetworkCredential("sheikhwasfa@gmail.com", "w@$f@958");
-        smcl.EnableSsl = true;
-        smcl.Send(mm);
-
-                */
-
+              
 
 
 
